@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.aplication.appelbuenpastor.ui.home.HomeFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_clases"
+        android:name="com.aplication.appelbuenpastor.ui.gallery.GalleryFragment"
+        android:label="@string/menu_clases"
+        tools:layout="@layout/fragment_temas" />
+
+    <fragment
+        android:id="@+id/nav_temas"
+        android:name="com.aplication.appelbuenpastor.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_temas"
+        tools:layout="@layout/fragment_clases" />
+    <fragment
+        android:id="@+id/fragment_textos"
+        android:name="com.aplication.appelbuenpastor.fragment_textos"
+        android:label="@string/textos"
+        tools:layout="@layout/fragment_textos" />
+</navigation>
