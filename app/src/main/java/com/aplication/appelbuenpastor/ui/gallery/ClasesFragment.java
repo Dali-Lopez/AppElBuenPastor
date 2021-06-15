@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.aplication.appelbuenpastor.R;
 
-public class GalleryFragment extends Fragment {
+public class ClasesFragment extends Fragment {
 
     private ClasesViewModel clasesViewModel;
 

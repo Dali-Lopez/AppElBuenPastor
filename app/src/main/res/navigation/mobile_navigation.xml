@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/nav_clases"
-        android:name="com.aplication.appelbuenpastor.ui.gallery.GalleryFragment"
+        android:name="com.aplication.appelbuenpastor.ui.gallery.ClasesFragment"
         android:label="@string/menu_clases"
         tools:layout="@layout/fragment_temas" />
 
