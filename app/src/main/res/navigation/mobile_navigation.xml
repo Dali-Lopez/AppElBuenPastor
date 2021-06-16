@@ -13,15 +13,15 @@
 
     <fragment
         android:id="@+id/nav_clases"
-        android:name="com.aplication.appelbuenpastor.ui.gallery.ClasesFragment"
+        android:name="com.aplication.appelbuenpastor.ui.clases.ClasesFragment"
         android:label="@string/menu_clases"
-        tools:layout="@layout/fragment_temas" />
+        tools:layout="@layout/fragment_clases" />
 
     <fragment
         android:id="@+id/nav_temas"
-        android:name="com.aplication.appelbuenpastor.ui.slideshow.SlideshowFragment"
+        android:name="com.aplication.appelbuenpastor.ui.temas.TemasFragment"
         android:label="@string/menu_temas"
-        tools:layout="@layout/fragment_clases" />
+        tools:layout="@layout/fragment_temas" />
     <fragment
         android:id="@+id/fragment_textos"
         android:name="com.aplication.appelbuenpastor.fragment_textos"

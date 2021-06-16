@@ -1,16 +1,16 @@
-package com.aplication.appelbuenpastor.ui.gallery;
+package com.aplication.appelbuenpastor.ui.temas;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class ClasesViewModel extends ViewModel {
+public class TemasViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public ClasesViewModel() {
+    public TemasViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("This is slideshow fragment");
     }
 
     public LiveData<String> getText() {
