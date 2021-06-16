@@ -17,7 +17,7 @@ import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 
-public class ClasesFragment extends Fragment implements YouTubePlayer.OnInitializedListener {
+public class ClasesFragment extends YouTubeBaseActivity{
 
     private ClasesViewModel clasesViewModel;
 
@@ -41,15 +41,5 @@ public class ClasesFragment extends Fragment implements YouTubePlayer.OnInitiali
 
          */
         return root;
-    }
-
-    @Override
-    public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-
-    }
-
-    @Override
-    public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
-
     }
 }
