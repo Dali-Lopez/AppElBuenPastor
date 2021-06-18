@@ -7,9 +7,10 @@
     tools:context=".ui.clases.ClasesFragment"
     android:background="@color/azulbonito">
 
-    <com.google.android.youtube.player.YouTubePlayerView
-        android:id="@+id/youtube_playerview"
+    <FrameLayout
+        android:id="@+id/frame_fragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        />
+        android:layout_height="200dp"/>
+
+
 </RelativeLayout>
